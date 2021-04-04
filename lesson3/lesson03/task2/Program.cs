@@ -23,6 +23,7 @@ namespace task2
 
             StreamReader reader = File.OpenText(fileName);
             Console.WriteLine(reader.ReadToEnd());
+            reader.Close();
 
             Console.ReadKey();
         }
