@@ -40,7 +40,7 @@ namespace task4
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e) 
         {
             var userStorage = IsolatedStorageFile.GetUserStoreForAssembly();
 
